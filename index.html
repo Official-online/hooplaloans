@@ -11,7 +11,7 @@
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/account
-            emailjs.init('GF6YY0JbsQddo_VKw');
+            emailjs.init('OCUFII26SPgBLeg-z');
         })();
     </script>
 </head>
@@ -108,7 +108,7 @@ window.onload = function() {
         // generate a five digit number for the contact_number variable
         this.contact_number.value = Math.random() * 100000 | 0;
         // these IDs from the previous steps
-        emailjs.sendForm("service_work","template_mayan", this)
+        emailjs.sendForm("service_hoopla","template_hoopla", this)
         .then(function() {
             console.log('SUCCESS!');
             let subscribe = document.getElementById('submit')
